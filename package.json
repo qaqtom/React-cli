@@ -1,0 +1,46 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "> 由于网上的React脚手架隐藏掉配置文件，扩展性差，所以我自定义配置了一个",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.common.js",
+    "dev": "webpack serve --config webpack.common.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "compression-webpack-plugin": "^11.1.0",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-sass": "^9.0.0",
+    "postcss-loader": "^8.1.1",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.6.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "antd": "^4.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  }
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 100px 300px;
+    padding: 10px 16px 16px 16px;
+    :global {
+        .ant-col-6 {
+            width: 72px;
+            padding-right: 4px;
+            margin-bottom: 4px;
+            max-width: 20%;
+        }
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: fixed;
+    box-sizing: border-box;
+    height: 50px;
+    width: 500px;
+    z-index: 100;
+}
+
+
+
+
+.content{
+    padding-top:50px;
+    width: 500px;
+    max-height: 500px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    user-select: none;  
+    .fileBox {
+        width: 72px;
+        height: 72px;
+        box-sizing: border-box;
+        position: relative;
+        cursor: pointer;
+
+        transition: 'border 0.3s';
+        &:hover {
+            outline: 2px solid #286CFB;
+        }
+        
+        .fileImg{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            
+        }
+        .checkbox{
+            position: absolute;
+            right: 2px;
+            top: 2px;
+        }
+    }
+}
